@@ -1,7 +1,12 @@
 # GroupDocs.Editor Cloud SDK for .NET
 This repository contains GroupDocs.Editor Cloud SDK for .NET source code. This SDK allows you to work with GroupDocs.Editor Cloud REST APIs in your .NET applications.
 
-GroupDocs.Editor Cloud allows you to edit documents across wide range of supported document types - DOCX/DOC, PPTX/PPT, XLSX/XLS, ODT, ODS, ODP, TSV/DSV, TXT.
+GroupDocs.Editor Cloud allows you to edit documents across wide range of supported document types:
+   * Microsoft Word documents - DOC, DOCX, DOCM, DOT, DOTM, DOTX, RTF, FlatOpc, WordML, TXT;
+   * Microsoft Excel spreadsheets - XLS, XLSX, XLSM, XLT, XLTX, XLTM, XLSB, SpreadsheetML, CSV, TSV;
+   * Microsoft PowerPoint presentations - PPT, PPTX, PPTM, POT, PPS etc.;
+   * Open Document formats - ODT, OTT, ODS, ODP, OTP;
+   * Markup - HTML, MHTML, XML.
 ## How to use the SDK?
 The complete source code is available in this repository folder, you can either directly use it in your project via NuGet package manager. For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/editorcloud/Available+SDKs#AvailableSDKs-.NET).
 
