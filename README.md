@@ -8,7 +8,7 @@ GroupDocs.Editor Cloud allows you to edit documents across wide range of support
    * Open Document formats - ODT, OTT, ODS, ODP, OTP;
    * Markup - HTML, MHTML, XML.
 ## How to use the SDK?
-The complete source code is available in this repository folder, you can either directly use it in your project via NuGet package manager. For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/editorcloud/Available+SDKs#AvailableSDKs-.NET).
+The complete source code is available in this repository folder, you can either directly use it in your project via NuGet package manager. For more details, please visit our [documentation website](https://docs.groupdocs.cloud/editor/available-sdks/).
 
 ## Dependencies
 - [Json.NET](https://www.nuget.org/packages/Newtonsoft.Json)
