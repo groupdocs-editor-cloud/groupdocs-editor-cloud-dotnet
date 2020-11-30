@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/api-v2.0-lightgrey) ![Nuget](https://img.shields.io/nuget/v/GroupDocs.Editor-Cloud) ![Nuget](https://img.shields.io/nuget/dt/GroupDocs.editor-Cloud) [![GitHub license](https://img.shields.io/github/license/groupdocs-editor-cloud/groupdocs-editor-cloud-dotnet)](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-dotnet/blob/master/LICENSE) 
+![](https://img.shields.io/badge/api-v1.0-lightgrey) ![Nuget](https://img.shields.io/nuget/v/GroupDocs.Editor-Cloud) ![Nuget](https://img.shields.io/nuget/dt/GroupDocs.editor-Cloud) [![GitHub license](https://img.shields.io/github/license/groupdocs-editor-cloud/groupdocs-editor-cloud-dotnet)](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-dotnet/blob/master/LICENSE) 
 
 # .NET SDK to Document Editor REST API
 
