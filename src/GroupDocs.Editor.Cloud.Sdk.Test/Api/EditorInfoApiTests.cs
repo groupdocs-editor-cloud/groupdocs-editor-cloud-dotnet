@@ -1,6 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright company="Aspose Pty Ltd">
-//  Copyright (c) 2003-2020 Aspose Pty Ltd
+//  Copyright (c) 2003-2021 Aspose Pty Ltd
 // </copyright>
 // <summary>
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -40,9 +40,11 @@ namespace GroupDocs.Editor.Cloud.Sdk.Test.Api
             var request = new GetInfoRequest(null);
 
             // Act & Assert    
-            Assert.Throws<ApiException>(() => {
+            var ex = Assert.Throws<ApiException>(() => {
                 InfoApi.GetInfo(request);
             });
+
+            Assert.AreEqual("Missing required parameter 'fileInfo' when calling GetInfo", ex.Message);
         }
 
         [Test]
@@ -54,9 +56,11 @@ namespace GroupDocs.Editor.Cloud.Sdk.Test.Api
             var request = new GetInfoRequest(fileInfo);
 
             // Act & Assert
-            Assert.Throws<ApiException>(() => {
+            var ex = Assert.Throws<ApiException>(() => {
                 InfoApi.GetInfo(request);
             });
+
+            Assert.AreEqual("Can't find file located at 'some-folder/NotExist.docx'.", ex.Message);
         }
 
         [Test]
