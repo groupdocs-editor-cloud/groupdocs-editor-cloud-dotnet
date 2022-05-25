@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------------------------------------
-// <copyright company="Aspose Pty Ltd" file="ApiErrorResponse.cs">
+// <copyright company="Aspose Pty Ltd" file="ConsumptionResult.cs">
 //  Copyright (c) 2003-2022 Aspose Pty Ltd
 // </copyright>
 // <summary>
@@ -23,10 +23,43 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace GroupDocs.Editor.Cloud.Sdk.Client.RequestHandlers
+namespace GroupDocs.Editor.Cloud.Sdk.Model 
 {
-    internal class ApiErrorResponse
-    {
-        public Error Error { get; set; }
+    using System;  
+    using System.Collections;
+    using System.Collections.Generic;
+    using System.Runtime.Serialization;
+    using System.Text;
+    using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+    
+    /// <summary>
+    /// Metered license consumption information
+    /// </summary>  
+    public class ConsumptionResult 
+    {                       
+        /// <summary>
+        /// Amount of used credits
+        /// </summary>  
+        public decimal? Credit { get; set; }
+
+        /// <summary>
+        /// Amount of MBs processed
+        /// </summary>  
+        public decimal? Quantity { get; set; }
+
+        /// <summary>
+        /// Get the string presentation of the object
+        /// </summary>
+        /// <returns>String presentation of the object</returns>
+        public override string ToString()  
+        {
+          var sb = new StringBuilder();
+          sb.Append("class ConsumptionResult {\n");
+          sb.Append("  Credit: ").Append(this.Credit).Append("\n");
+          sb.Append("  Quantity: ").Append(this.Quantity).Append("\n");
+          sb.Append("}\n");
+          return sb.ToString();
+        }
     }
 }
